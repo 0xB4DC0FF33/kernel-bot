@@ -12,7 +12,7 @@ from typing import List, Union
 import redis
 import re
 
-sentry = Client('https://62ffbf83e1204334ae60fd85305239f2:c8033d9c0312464f87593d93b7040a11@sentry.io/154891')
+sentry = Client('https://**:**@sentry.io/154891')
 
 USER_DOESNT_EXIST = "Cet utilisateur n'existe pas (ou je n'ai, du moins, pas réussi à le trouver dans ce channel)."
 NO_DESC = "Cet utilisateur n'a pas de description."
